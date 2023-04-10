@@ -1,0 +1,25 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emad",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/node": "^2.10.3",
+    "apollo-server-core": "^3.12.0",
+    "apollo-server-express": "^3.12.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "serverless-http": "^3.2.0"
+  }
+}
